@@ -17,7 +17,22 @@
 @section('css')
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 <link rel="stylesheet" href="/css/index.css">
+<style>
+    main #news .container .link .news_pic {
+        background-size: cover;
+        background-position: center;
+    }
+    main #news .container .link .news_title {
+        width: calc(100% - 120px);
+    }
+    @media(max-width: 575px) {
+        main #news .container .link .news_pic {
+            width: 90px;
+            height: 90px;
+        }
 
+    }
+</style>
 @endsection
 
 @section('content')
