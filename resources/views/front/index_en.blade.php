@@ -60,14 +60,15 @@
                             <span class="title">
                                 ABOUT
                             </span>
-                            <img width="100%" class="lazy" data-src="/img/about_us.jpg" src="/img/about_us.jpg">
+                            <img width="100%" class="lazy" data-src="/img/about_us.jpg" src="/img/factory.jpg">
                         </div>
                     </div>
                     <div class="col-12 col-md-9">
                         <div class="text">
                             <p>
-                                Zheng long Plastics Factory Co., Ltd. was founded in 1989. It is a professional manufacturer of cable ties. From plastic mold design to product injection molding, it has been operating consistently. The products are of high quality and are well received by customers.<br>
-                                In addition to the main professional manufacturing of cable ties for wiring, it is also committed to the development and application of peripheral products, such as cable ties holders, plastic bottle caps, mineral water handles... etc. OEM/ODM are welcome.
+                                Jiahong Plastic Co., Ltd. was established in 1990, dedicated to computer peripherals Auxiliary product production and development, such as desktop computer mainframes, notebook computers Auxiliary board, office stationery products such as stationery storage boxes, telephone stands, etc. , From product development, plastic mold design and manufacturing to product injection molding, packaging The installation is consistent, and the excellent working environment makes the products more competitive.
+                                <br>
+                                Strict quality control, rapid production, and excellent products are the company's unanimous compliance goals. The company always adheres to the spirit of innovation and service to meet customer needs,To win the trust of customers with a sincere and responsible attitude. Marketing throughout Ball, and accept OEM/ODM orders, you are welcome to contact us.
                             </p>
                         </div>
                     </div>
@@ -152,8 +153,8 @@
                         </form>
                         JIA HONG PLASTICS FACTORY CO.<br>
                         VAT Number: 23702854<br>
-                        TEL: 04-7779606<br>
-                        FAX: 04-7770406<br>
+                        TEL: +886-4-7779606<br>
+                        FAX: +886-4-7770406<br>
                         EMAIL: jiahung@jiahung.com<br>
                     </div>
                     <div class="col-12 col-md-6">
