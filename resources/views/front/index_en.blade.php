@@ -66,7 +66,7 @@
                     <div class="col-12 col-md-9">
                         <div class="text">
                             <p>
-                                Jiahong Plastic Co., Ltd. was established in 1990, dedicated to computer peripherals Auxiliary product production and development, such as desktop computer mainframes, notebook computers Auxiliary board, office stationery products such as stationery storage boxes, telephone stands, etc. , From product development, plastic mold design and manufacturing to product injection molding, packaging The installation is consistent, and the excellent working environment makes the products more competitive.
+                                Jiahung enterprise .co.ltd. was established in 1990, dedicated to computer peripherals Auxiliary product production and development, such as desktop computer mainframes, notebook computers Auxiliary board, office stationery products such as stationery storage boxes, telephone stands, etc. , From product development, plastic mold design and manufacturing to product injection molding, packaging The installation is consistent, and the excellent working environment makes the products more competitive.
                                 <br>
                                 Strict quality control, rapid production, and excellent products are the company's unanimous compliance goals. The company always adheres to the spirit of innovation and service to meet customer needs,To win the trust of customers with a sincere and responsible attitude. Marketing throughout Ball, and accept OEM/ODM orders, you are welcome to contact us.
                             </p>
@@ -151,7 +151,7 @@
 
                             <button class="btn form_button" type="submit">send</button>
                         </form>
-                        JIA HONG PLASTICS FACTORY CO.<br>
+                        Jiahung enterprise .co.ltd.<br>
                         VAT Number: 23702854<br>
                         TEL: +886-4-7779606<br>
                         FAX: +886-4-7770406<br>
