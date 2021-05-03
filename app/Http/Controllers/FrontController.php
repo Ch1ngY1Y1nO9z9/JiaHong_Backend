@@ -26,7 +26,7 @@ class FrontController extends Controller
 
     public function index_en() {
         $banners = Banners::orderBy('sort','desc')->get();
-        $all_news = News::orderBy('sort','desc')->take(2)->get();
+        $all_news = News::orderBy('sort','desc')->take(4)->get();
         $productTypes = ProductsType::orderBy('sort','desc')->get();
 
         return view('front.index_en',compact('banners','all_news','productTypes'));
