@@ -35,36 +35,42 @@
                                 <label for="img" class="col-2 col-form-label">當前產品圖片</label>
                                 <div class="col-10">
                                     <div class="row">
-                                        @if($item->img2)
+
                                         <div class="col">
+                                            @if($item->img2)
                                             <img width="200" src="{{$item->img2}}" alt="">
+                                            @endif
                                             <div>第一張產品圖</div>
                                             <div>
                                                 <input type="file" class="form-control-file" id="img" name="img2">
                                             </div>
                                         </div>
 
-                                        @endif
-                                        @if($item->img3)
+
+
                                         <div class="col">
+                                            @if($item->img3)
                                             <img width="200" src="{{$item->img3}}" alt="">
+                                            @endif
                                             <div>第二張產品圖</div>
                                             <div>
                                                 <input type="file" class="form-control-file" id="img" name="img3">
                                             </div>
                                         </div>
 
-                                        @endif
-                                        @if($item->img4)
+
+
                                         <div class="col">
+                                            @if($item->img4)
                                             <img width="200" src="{{$item->img4}}" alt="">
+                                            @endif
                                             <div>第三張產品圖</div>
                                             <div>
                                                 <input type="file" class="form-control-file" id="img" name="img4">
                                             </div>
                                         </div>
 
-                                        @endif
+
                                     </div>
                                 </div>
                                 <div class="col-12"><small class="text-danger">*注意：建議尺寸：300 * 200 (px)</small></div>
