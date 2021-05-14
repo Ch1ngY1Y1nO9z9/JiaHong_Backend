@@ -16,9 +16,41 @@
 
                             <div class="event">
                                 <div class="form-group row">
-                                    <label for="img" class="col-2 col-form-label">上傳圖片</label>
+                                    <label for="img" class="col-2 col-form-label">上傳主要圖片</label>
                                     <div class="col-10">
                                         <input type="file" class="form-control-file" id="img" name="img">
+                                    </div>
+                                    <div class="col-12"><small class="text-danger">*注意：建議尺寸：300 * 200 (px)</small></div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="event">
+                                <div class="form-group row">
+                                    <label for="img" class="col-2 col-form-label">上傳第一張產品圖片</label>
+                                    <div class="col-10">
+                                        <input type="file" class="form-control-file" id="img" name="img2">
+                                    </div>
+                                    <div class="col-12"><small class="text-danger">*注意：建議尺寸：300 * 200 (px)</small></div>
+                                </div>
+                            </div>
+
+                            <div class="event">
+                                <div class="form-group row">
+                                    <label for="img" class="col-2 col-form-label">上傳第二張產品圖片</label>
+                                    <div class="col-10">
+                                        <input type="file" class="form-control-file" id="img" name="img3">
+                                    </div>
+                                    <div class="col-12"><small class="text-danger">*注意：建議尺寸：300 * 200 (px)</small></div>
+                                </div>
+                            </div>
+
+                            <div class="event">
+                                <div class="form-group row">
+                                    <label for="img" class="col-2 col-form-label">上傳第三張產品圖片</label>
+                                    <div class="col-10">
+                                        <input type="file" class="form-control-file" id="img" name="img4">
                                     </div>
                                     <div class="col-12"><small class="text-danger">*注意：建議尺寸：300 * 200 (px)</small></div>
                                 </div>

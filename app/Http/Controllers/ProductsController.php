@@ -28,6 +28,15 @@ class ProductsController extends Controller
         if($request->hasFile('img')){
             $new_record->fill(['img' => $this->upload_file($request->file('img'))]);
         }
+        if($request->hasFile('img2')){
+            $new_record->fill(['img2' => $this->upload_file($request->file('img2'))]);
+        }
+        if($request->hasFile('img3')){
+            $new_record->fill(['img3' => $this->upload_file($request->file('img3'))]);
+        }
+        if($request->hasFile('img4')){
+            $new_record->fill(['img4' => $this->upload_file($request->file('img4'))]);
+        }
 
         $new_record->save();
 
@@ -54,6 +63,21 @@ class ProductsController extends Controller
         if($request->hasFile('img')){
             $this->delete_file($item->img);
             $item->img = $this->upload_file($request->file('img'));
+        }
+
+        if($request->hasFile('img2')){
+            $this->delete_file($item->img2);
+            $item->img2 = $this->upload_file($request->file('img2'));
+        }
+
+        if($request->hasFile('img3')){
+            $this->delete_file($item->img3);
+            $item->img3 = $this->upload_file($request->file('img3'));
+        }
+
+        if($request->hasFile('img4')){
+            $this->delete_file($item->img4);
+            $item->img4 = $this->upload_file($request->file('img4'));
         }
 
         $item->save();
