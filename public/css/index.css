@@ -471,7 +471,7 @@ main #contact_us form .form_button {
   font-size: 20px;
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 95px;
   z-index: 10;
 }
 
