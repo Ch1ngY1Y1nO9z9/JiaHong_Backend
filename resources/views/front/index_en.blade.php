@@ -1,17 +1,7 @@
 @extends('layouts.template_en')
 
 @section('recaptcha')
-    {{-- google recaptcha v3 --}}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LdXJLEaAAAAAIZOU1MtTBqaxjG9yIqtQVr7gcOF"></script>
-    <script>
-        grecaptcha.ready(function() {
-        grecaptcha.execute('6LdXJLEaAAAAAIZOU1MtTBqaxjG9yIqtQVr7gcOF', {action: 'homepage'}).then(function(token) {
-        var recaptchaResponse = document.getElementById('recaptchaResponse');
-        recaptchaResponse.value = token;
-        });
-    });
-    </script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 @endsection
 
 @section('css')
@@ -147,9 +137,8 @@
                                 <span class="input-group-text">Message:</span>
                                 <textarea class="form-control" aria-label="With textarea" name="content" height="300px" required></textarea>
                             </div>
-                            <input type="hidden" value="" name="recaptcha_response" id="recaptchaResponse">
-
                             <button class="btn form_button" type="submit">send</button>
+                            <div class="mt-3 g-recaptcha" data-sitekey="6LfJjvMfAAAAAJns6znQ3dAh2QFC2ryo3h5fK9SA"></div>
                         </form>
                         Jiahung enterprise .co.ltd.<br>
                         VAT Number: 23702854<br>
