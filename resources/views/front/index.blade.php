@@ -5,7 +5,7 @@
 @endsection
 
 @section('css')
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css" />
 <link rel="stylesheet" href="/css/index.css">
 <style>
     main #news .container .link .news_pic {
@@ -162,7 +162,7 @@
 
 @section('js')
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.js" integrity="sha512-l83GrO3fDEz/cSQ8aDkNluU2SWGyGEMFB2iVPD6cF/BhX6mavNEGmEXjhjtwpH5jeAj5Nk3dl5JaryF6RPfJ6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         var swiper = new Swiper('.swiper-container', {
             autoplay: {
